@@ -1,6 +1,15 @@
 # ZX Calculus Project
 
-Small PyZX demos for learning ZX calculus and quantum circuit simplification.
+Small PyZX demos and VyZX/Rocq formal proofs for learning ZX calculus.
+
+## Formal proofs (VyZX / Rocq)
+
+Two machine-checked demos are available in [formal/](formal/README.md):
+
+- [Spider fusion](formal/SpiderFusionRepro.v): single-wire Z/X fusion and concrete pi/4 examples.
+- [SUP3](formal/Supplementarity3.v): the minimal state version of cyclotomic supplementarity for arbitrary real phase.
+
+See the [formal proof instructions](formal/README.md) for dependencies, theorem scope, and the script that compiles both demos and rechecks their proof objects with `coqchk`.
 
 ## Demos
 
@@ -26,4 +35,4 @@ Replace `demo_hh.py` with another demo filename to run it.
 
 ## Project status
 
-These demos are introductory exercises. Reproducing results from the VyZX paper is a possible next step; it is not part of this repository yet.
+The PyZX scripts are introductory numerical exercises. The `formal/` directory contains the two formal proof demos described above; it does not reproduce the entire VyZX paper.

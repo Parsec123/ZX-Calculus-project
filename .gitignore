@@ -2,3 +2,14 @@
 .vscode/
 __pycache__/
 *.py[cod]
+
+# Rocq/Coq build products and local dependencies
+formal/.deps/
+formal/.build/
+*.vo
+*.vos
+*.vok
+*.glob
+.*.aux
+.lia.cache
+.nra.cache
